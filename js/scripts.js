@@ -1,7 +1,10 @@
-function Hangmanword(word, bank) {
+function ChoseWord(word, length, letters) {
   this.word = word;
+  this.length = word.length;
+  this.letters = word.split("");
 }
 
-Hangmanword.prototype.ilength = function() {
-this.bank.push(word);
+ChoseWord.prototype.Game = function() {
+  var bank = ["apples, cheese, whimsy, please, radios, stereo"];
+  var hangLetters = bank.split(" ");
 }
